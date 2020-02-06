@@ -1,6 +1,6 @@
 * {
-   margin: 0;
-   padding: 0; 
+   margin: 0px;
+   padding: 0px; 
 }
 
 body{
@@ -9,32 +9,27 @@ body{
 
 .menu{
     list-style: none;
-    background: rgb(32, 134, 230);
+    background: rgb(3, 77, 146);
     padding: 0px 26px;
 }
 
 .menu li{
     display: inline-block;
     padding: 10px 26px ;
-    /*border: 1px solid black;*/
-}
-
-.menu li:hover{
-    background: #999999;
-    border-bottom: 2px solid #222222;
 }
 
 .menu li a{
     text-decoration: none;
-    color: #222222;
+    color: #ffffff;
     padding: 10px;
     
 }
 .menu li a:hover{
-    color: #dbe919;
+    color: #d0fc0f;
     
 }
 
 .espacio{
-
+    margin-right: 640px;
+    margin-left: 0px;
 }
