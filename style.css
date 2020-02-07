@@ -1,0 +1,33 @@
+.font.montserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.menu{
+    list-style: none;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.menu li a:hover{
+    color: rgb(238, 255, 0);
+}
+
+.boton{
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 35px;
+    margin: 20px;
+    background: #0012b4;
+}
+
+.boton.redondo{
+    border-radius: 25px;
+}
