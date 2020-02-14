@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-image:linear-gradient(rgb(0, 0, 255),rgb(1, 1, 131)) ;
+    padding: 15px;
+    border-radius: 15px;
+    align-items: flex-end;
+    width: 320px;
+    position: absolute;    
+    right: 10px;
+}
+
+.flex-container div a{
+    text-decoration: none;
+    margin-left: 26px;
+    color: #ffffff;
+}
+
+.flex-container div a:hover{
+    color: rgb(200, 255, 0);
+}

@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("imagenes/Pinkskyscraper.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    font-family: tilda-petite, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1{
+    text-shadow: 2px 4px #494949;
+}
+
+.desc{
+    font-family: fertigo-script, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+
+p{
+    text-shadow: 2px 2px #494949;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.column{
+    padding: 0 4px;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media (max-width:800px){
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
