@@ -1,20 +1,13 @@
-body, html{
-    height: 650px;
+body{
+    background-image: url("image/Programingweb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 *{
     box-sizing: content-box;
     margin: 0px;
     padding: 0px;
-}
-.bg-image{
-    background-image: url("image/Programingcomputer.jpg");
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .bg-titulo{
@@ -24,15 +17,50 @@ body, html{
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
-    top: 50%;
-    left: 50%;
+    top: 25%;
+    left: 35%;
     color: #ffffff;
 }
 
-.bg-texto{
+.container {
     position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+.box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1; 
+    backdrop-filter: blur(5px);  
+    -webkit-backdrop-filter: blur(5px);
+    max-width: 40%;
+    max-height: 50%;
+    padding: 20px 50px;
+  }
+
+.bg-texto{
     color: #ffffff;
-    font-size: 15px;
-    top: 30%;
-    left: 30%;
+    font-size: 20px;
+}
+
+.link{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 65%;
+    left: 43%;
+}
+
+.link a{
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
 }
