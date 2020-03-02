@@ -8,3 +8,8 @@
 .fuente3{
     font-family: 'Saira Semi Condensed', sans-serif;
 }
+
+.row{
+    margin: 5%;
+    text-align: center;
+}
