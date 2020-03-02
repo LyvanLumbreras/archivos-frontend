@@ -30,6 +30,19 @@ body{
 }
 
 .espacio{
-    margin-right: 640px;
+    margin-right: 630px;
     margin-left: 0px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+.row{
+    margin: 10%;
+    text-align: center;
 }

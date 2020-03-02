@@ -11,10 +11,11 @@ body{
 }
 
 .titulo{
+    font-size: 50px;
+    margin: 2%;
     font-family: tilda-petite, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
     text-align: center;
     color: #ffffff;
 }
@@ -69,4 +70,9 @@ p{
         flex: 100%;
         max-width: 100%;
     }
+}
+
+.row{
+    text-align: center;
+    margin: 5%;
 }

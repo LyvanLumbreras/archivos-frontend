@@ -1,3 +1,11 @@
+.titulo{
+    text-align: center;
+}
+
+.subtitulo{
+    text-align: center;
+}
+
 .boton{
     font-size: 16px;
     display: inline-block;
@@ -32,4 +40,12 @@
 
 .boton.redondo{
     border-radius: 30%;
+}
+
+.row{
+    margin: 5%;
+    text-align: center;
+}
+.col-md-12{
+    margin: 20px;
 }
