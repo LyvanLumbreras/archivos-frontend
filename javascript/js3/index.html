@@ -7,29 +7,147 @@
 
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
 </head>
 <body>
-    <div class="container">
+    <div align="center" class="container">
         <div class="row">
-          <div class="col-md-12">
-            <h1>Calculadora</h1>
+          <div class="col-md-4">
+            <h1 align="center">Calculadora</h1>
           </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <form>
+            <div class="col-md-12" align="center">
+                <form align="center">
                     <div class="form-row">
                         <div class="col-md-4 mb-3">
-                            <input type="text" class="form-control" id="resultado">
+                            <input align="center" type="text" class="form-control" id="resultado">
                         </div>
+                    </div>
+                    <div align="center" class="form-row" style="margin: 5px;">
+                      <div class="col-md-4">
+                        <button class="btn btn-primary" type="button" id="btn-7">7</button>
+                        <button class="btn btn-primary" type="button" id="btn-8">8</button>
+                        <button class="btn btn-primary" type="button" id="btn-9">9</button>
+                        <button class="btn btn-primary" type="button" id="btn-mult">X</button>
+                      </div>
+                    </div>
+                    <div align="center" class="form-row" style="margin: 5px;">
+                      <div class="col-md-4">
+                        <button class="btn btn-primary" type="button" id="btn-4">4</button>
+                        <button class="btn btn-primary" type="button" id="btn-5">5</button>
+                        <button class="btn btn-primary" type="button" id="btn-6">6</button>
+                        <button class="btn btn-primary" type="button" id="btn-res">-</button>
+                      </div>
+                    </div>
+                    <div align="center" class="form-row" style="margin: 5px;">
+                      <div class="col-md-4">
+                        <button class="btn btn-primary" type="button" id="btn-1">1</button>
+                        <button class="btn btn-primary" type="button" id="btn-2">2</button>
+                        <button class="btn btn-primary" type="button" id="btn-3">3</button>
+                        <button class="btn btn-primary" type="button" id="btn-sum">+</button>
+                      </div>
+                    </div>
+                    <div align="center" class="form-row" style="margin: 5px;">
+                      <div class="col-md-4">
+                        <button class="btn btn-primary" type="button" id="btn-borrar">C</button>
+                        <button class="btn btn-primary" type="button" id="btn-punto">.</button>
+                        <button class="btn btn-primary" type="button" id="btn-ig">=</button>
+                      </div>
                     </div>
                 </form>
             </div>
         </div>
-      </div>
+    </div>
 
+    <script>
+      jQuery(document).ready(function() {
+        $("#btn-1").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + "1")
+        });
+        $("#btn-2").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + "2")
+        });
+        $("#btn-3").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + "3")
+        });
+        $("#btn-4").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + "4")
+        });
+        $("#btn-5").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + "5")
+        });
+        $("#btn-6").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + "6")
+        });
+        $("#btn-7").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + "7")
+        });
+        $("#btn-8").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + "8")
+        });
+        $("#btn-9").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + "9")
+        });
+        $("#btn-sum").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          numero = parseFloat(valor);
+          operacion = 1;
+          $("#resultado").val("")
+        });
+        $("#btn-res").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          numero = parseFloat(valor);
+          operacion = 2;
+          $("#resultado").val("")
+        });
+        $("#btn-mult").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          numero = parseFloat(valor);
+          operacion = 3;
+          $("#resultado").val("")
+        });
+        $("#btn-ig").click(function(event){
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          switch(operacion){
+            case 1:
+              res = numero + parseFloat(valor);
+              $("#resultado").val(res); 
+            break;
+            case 2:
+              res = numero - parseFloat(valor);
+              $("#resultado").val(res);
+            break;
+            case 1:
+              res = numero * parseFloat(valor);
+              $("#resultado").val(res);
+            break;
+        }
+        });
+      });
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 </body>
