@@ -37,7 +37,7 @@
                         <button class="btn btn-primary" type="button" id="btn-4">4</button>
                         <button class="btn btn-primary" type="button" id="btn-5">5</button>
                         <button class="btn btn-primary" type="button" id="btn-6">6</button>
-                        <button class="btn btn-primary" type="button" id="btn-res">-</button>
+                        <button class="btn btn-primary" type="button" id="btn-resta">-</button>
                       </div>
                     </div>
                     <div align="center" class="form-row" style="margin: 5px;">
@@ -45,14 +45,15 @@
                         <button class="btn btn-primary" type="button" id="btn-1">1</button>
                         <button class="btn btn-primary" type="button" id="btn-2">2</button>
                         <button class="btn btn-primary" type="button" id="btn-3">3</button>
-                        <button class="btn btn-primary" type="button" id="btn-sum">+</button>
+                        <button class="btn btn-primary" type="button" id="btn-suma">+</button>
                       </div>
                     </div>
                     <div align="center" class="form-row" style="margin: 5px;">
                       <div class="col-md-4">
+                        <button class="btn btn-primary" type="button" id="btn-0">0</button>
                         <button class="btn btn-primary" type="button" id="btn-borrar">C</button>
                         <button class="btn btn-primary" type="button" id="btn-punto">.</button>
-                        <button class="btn btn-primary" type="button" id="btn-ig">=</button>
+                        <button class="btn btn-primary" type="button" id="btn-igual">=</button>
                       </div>
                     </div>
                 </form>
@@ -60,95 +61,123 @@
         </div>
     </div>
 
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
     <script>
       jQuery(document).ready(function() {
-        $("#btn-1").click(function(event){
+        var numero = 0;
+        var operacion = 0;
+
+        $("#btn-borrar").click(function(event) {
+          event.preventDefault();
+          $("#resultado").val("");
+        });
+
+        $("#btn-0").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
-          $("#resultado").val(valor + "1")
+          $("#resultado").val(valor + "0");
         });
-        $("#btn-2").click(function(event){
+        $("#btn-1").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
-          $("#resultado").val(valor + "2")
+          $("#resultado").val(valor + "1");
         });
-        $("#btn-3").click(function(event){
+        $("#btn-2").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
-          $("#resultado").val(valor + "3")
+          $("#resultado").val(valor + "2");
         });
-        $("#btn-4").click(function(event){
+        $("#btn-3").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
-          $("#resultado").val(valor + "4")
+          $("#resultado").val(valor + "3");
         });
-        $("#btn-5").click(function(event){
+        $("#btn-4").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
-          $("#resultado").val(valor + "5")
+          $("#resultado").val(valor + "4");
         });
-        $("#btn-6").click(function(event){
+        $("#btn-5").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
-          $("#resultado").val(valor + "6")
+          $("#resultado").val(valor + "5");
         });
-        $("#btn-7").click(function(event){
+        $("#btn-6").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
-          $("#resultado").val(valor + "7")
+          $("#resultado").val(valor + "6");
         });
-        $("#btn-8").click(function(event){
+        $("#btn-7").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
-          $("#resultado").val(valor + "8")
+          $("#resultado").val(valor + "7");
         });
-        $("#btn-9").click(function(event){
+        $("#btn-8").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
-          $("#resultado").val(valor + "9")
+          $("#resultado").val(valor + "8");
         });
-        $("#btn-sum").click(function(event){
+        $("#btn-9").click(function(event) {
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + "9");
+        });
+        $("#btn-punto").click(function(event) {
+          event.preventDefault();
+          let valor = $("#resultado").val();
+          $("#resultado").val(valor + ".");
+        });
+        $("#btn-suma").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
           numero = parseFloat(valor);
           operacion = 1;
-          $("#resultado").val("")
+          $("#resultado").val("");
         });
-        $("#btn-res").click(function(event){
+
+        $("#btn-resta").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
           numero = parseFloat(valor);
           operacion = 2;
-          $("#resultado").val("")
+          $("#resultado").val("");
         });
-        $("#btn-mult").click(function(event){
+
+        $("#btn-mult").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
           numero = parseFloat(valor);
           operacion = 3;
-          $("#resultado").val("")
+          $("#resultado").val("");
         });
-        $("#btn-ig").click(function(event){
+
+        $("#btn-igual").click(function(event) {
           event.preventDefault();
           let valor = $("#resultado").val();
-          switch(operacion){
+          let res = 0;
+
+          switch (operacion) {
             case 1:
               res = numero + parseFloat(valor);
-              $("#resultado").val(res); 
-            break;
+              $("#resultado").val(res);
+              break;
             case 2:
               res = numero - parseFloat(valor);
               $("#resultado").val(res);
-            break;
-            case 1:
+              break;
+            case 3:
               res = numero * parseFloat(valor);
               $("#resultado").val(res);
-            break;
-        }
+              break;
+          }
         });
       });
     </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
