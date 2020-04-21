@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsley.js</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Parsley.Js Validacion de formulario</h2>
+
+                <form id="form" data-parsley-validate="">
+                    <label>Nombre</label>
+                    <br>
+                    <input type="text" name="nombre" id="nombre" data-parsley-trigger="change" required="">
+                    <br>
+                    <label>Apellido</label>
+                    <br>
+                    <input type="text" name="apellido" id="apellido" required="">
+                    <br>
+                    <label>E-mail</label>
+                    <br>
+                    <input type="text" name="email" id="email" required="" data-parsley-type="email">
+                    <br>
+                    <div class="invalid-form-error-message"></div>
+                    <br>
+                    <input type="submit" value="Validar" class="btn btn-success">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="parsley.min.js"></script>
+
+
+</body>
+</html>
