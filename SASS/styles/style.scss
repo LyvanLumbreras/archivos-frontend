@@ -1,0 +1,48 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+$color1: #f2f2f2;
+$color2: #1f67f7;
+$fuente1: 'Montserrat', sans-serif;
+$fuente2: 'Playfair Display', serif;
+
+header{
+    background: $color1;
+    display: flex;
+    height: 60px;
+
+    justify-content: flex-end;
+    border-bottom: 2px solid #d2d2d2;
+    button{
+        background-color: #f2f2f2;
+        padding: 20px;
+        color: #333;
+        border-top-style: none;
+        border-bottom-style: none;
+        border-right: thin;
+        &:hover{
+            background: $color2;
+        }
+    }
+}
+
+div{
+    margin-top: 80px;
+    margin-left: 200px;
+    h1{
+        font-family: $fuente1;
+    }
+    h2{
+        color: $color2;
+        margin-top: 30px;
+        font-family: $fuente2;
+    }
+    p{
+        margin-top: 20px;
+        font-family: $fuente2;
+        width: 500px;
+    }
+}
