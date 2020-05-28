@@ -1,0 +1,189 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, sans-serif;
+    background-image: url("../images/Image_hero_area.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #0b0b0b;
+}
+
+
+
+li {
+    display: inline-flex;
+    align-content: flex-end;
+}
+
+a {
+    color: black;
+    text-transform: uppercase;
+    align-content: center;
+    font-weight: 700;
+    font-size: 16.67px;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.titulos1 {
+    margin-left: 3.5%;
+    margin-top: 17%;
+    width: 50%;
+}
+
+
+
+.boton-negro {
+    background: black;
+    padding: 24px 24px;
+    color: white;
+    font-size: 12.5px;
+}
+
+.margina {
+    margin-left: 25px;
+}
+
+
+
+.font-colorg {
+    color: #a2a2a2;
+    font-weight: 700;
+    font-size: 41.57px;
+}
+
+.subt1 {
+    font-size: 39.57px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+.tit1 {
+    font-size: 74.39px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.subsub1 {
+    font-size: 20.83px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.sub2 {
+    font-weight: 700;
+    font-size: 54.17px;
+}
+
+.body-text {
+    margin-top: 5%;
+    font-size: 20.83px;
+}
+
+.titulos2 {
+    margin-left: 3.5%;
+    margin-top: 17%;
+    width: 96%;
+}
+
+.sombra {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.fondo-bosque {
+    margin-top: 10%;
+    background-image: url(../images/Image%203.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 351px;
+}
+
+.sub3 {
+    color: #fff;
+    font-size: 45.83px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraf-bosque {
+    color: #fff;
+    font-size: 20.83px;
+}
+
+
+
+
+
+.margint {
+    margin-top: 90px;
+}
+
+.grupo4 {
+    margin-top: 5%
+}
+
+.paragraf-hikingworld {
+    font-weight: 300;
+    font-size: 20.83px;
+    width: 90%;
+}
+
+.sub4 {
+    font-weight: 700;
+    font-size: 45.83px;
+}
+
+
+
+.footer {
+    margin-top: 10%;
+}
+
+.subfooter {
+    font-weight: 800;
+    color: #fff;
+    background-color: black;
+    padding: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px
+    
+}
+
+
+
+
+
+.s1 {
+    font-size: 20px;
+}
+
+.s2 {
+    font-size: 30px;
+}
+
+.copyr {
+    font-size: 16.67px;
+    font-weight: 500;
+    margin-top: 10px
+}
+
+.icono-social {
+    margin-left: 15px;
+}

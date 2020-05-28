@@ -1,0 +1,85 @@
+body{
+    background-image: url("../images/Image_hero_area.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    header{
+        margin: 20px;
+        height: 64px;
+        overflow: hidden;
+        a{
+            float: left;
+            text-align: center;
+        }
+        div{
+            margin: 0px;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: flex-end;
+            button{
+                margin: 0px;
+                justify-content: center;
+                text-align: center;
+                padding-left: 25px;
+                padding-right: 25px;
+                color: #000000;
+                background: none;
+                border: none;
+                &:hover{
+                    text-decoration: none;
+                }
+                a{
+                    font-family: montserrat, sans-serif;
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16.67px;
+                    color: #000000;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div{
+    margin-left: 20px;
+    margin-top: 160px;
+    h1{
+        color: #0b0b0b;
+        font-family: montserrat, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 74.39px;
+    }
+    h2{
+        color: #0b0b0b;
+        font-family: montserrat, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 39.57px;
+    }
+    h3{
+        color: #0b0b0b;
+        width: 440px;
+        font-family: montserrat, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 20.83px;
+    }
+    button{
+        margin-top: 20px;
+        padding: 25px;
+        background-color: #000000;
+        color: #ffffff;
+        font-family: montserrat, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 12.5px;
+        letter-spacing: 2px;
+        border: none;
+    }
+}

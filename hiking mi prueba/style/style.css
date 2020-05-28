@@ -1,0 +1,103 @@
+body {
+  background-image: url("../images/Image_hero_area.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+}
+
+body header {
+  margin: 20px;
+  height: 64px;
+  overflow: hidden;
+}
+
+body header a {
+  float: left;
+  text-align: center;
+}
+
+body header div {
+  margin: 0px;
+  height: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body header div button {
+  margin: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #000000;
+  background: none;
+  border: none;
+}
+
+body header div button:hover {
+  text-decoration: none;
+}
+
+body header div button a {
+  font-family: montserrat, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16.67px;
+  color: #000000;
+}
+
+body header div button a:hover {
+  text-decoration: none;
+}
+
+div {
+  margin-left: 20px;
+  margin-top: 160px;
+}
+
+div h1 {
+  color: #0b0b0b;
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 74.39px;
+}
+
+div h2 {
+  color: #0b0b0b;
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 39.57px;
+}
+
+div h3 {
+  color: #0b0b0b;
+  width: 440px;
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20.83px;
+}
+
+div button {
+  margin-top: 20px;
+  padding: 25px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 12.5px;
+  letter-spacing: 2px;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
