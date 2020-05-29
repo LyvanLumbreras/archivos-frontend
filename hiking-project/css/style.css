@@ -155,9 +155,7 @@ a:hover {
     margin-top: 10px
 }
 
-.icono-social {
-    margin-left: 15px;
-}
+
 
 .logo {
     height: auto;
@@ -204,13 +202,80 @@ a:hover {
         letter-spacing: 0.2px
     }
     
-    img4{
-        height: 50%;
+    .titulos2 {
+        margin-top: 7%;
     }
-    
+    .font-colorg {
+        color: #a2a2a2;
+        font-weight: 700;
+        font-size: 100%;
+    }
+    .sub2 {
+        font-weight: 700;
+        font-size: 100%;
+    }
+    .body-text {
+        margin-top: 5%;
+        font-size: 90%;
+    }
+    .rew{
+        height: 40%;
+        width: 40%;
+    }
+    .fondo-bosque {
+        margin-top: 10%;
+        background-image: url(../images/Image%203.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .margint {
+        margin-top: 40px;
+    }
     .sub3{
         font-size: 100%
     }
-    
-    
+    .paragraf-bosque {
+        color: #fff;
+        font-size: 100%;
+    }
+    .sub4 {
+        font-weight: 700;
+        font-size: 100%;
+    }
+    .paragraf-hikingworld {
+        font-weight: 300;
+        font-size: 100%;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    marginb{
+        margin-left: 
+    }
+    .widtha{
+        width: 20%
+    }
+    logof{
+        
+    }
+    .copyr {
+        font-size: 50%;
+        font-weight: 500;
+        margin-top: 10px
+    }
+    .s1 {
+        font-size: 10%;
+    }
+    .s2 {
+        font-size: 30%;
+    }
+    .icono-social {
+        margin-left: 10px;
+    }
+    .show{
+        display: none;
+    }
 }
+
+
