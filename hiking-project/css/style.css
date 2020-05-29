@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     color: #0b0b0b;
+    width: 100%;
 }
 
 li {
@@ -27,9 +28,7 @@ a:hover {
 }
 
 .titulos1 {
-    margin-left: 3.5%;
     margin-top: 17%;
-    width: 50%;
 }
 
 .boton-negro {
@@ -79,9 +78,8 @@ a:hover {
 }
 
 .titulos2 {
-    margin-left: 3.5%;
     margin-top: 17%;
-    width: 96%;
+    width: 100%;
 }
 
 .sombra {
@@ -165,18 +163,54 @@ a:hover {
     height: auto;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 600px){
     .logo{
-        height: 50%;
+        width: 50%;
     }
     a {
-    color: black;
-    text-transform: uppercase;
-    align-content: center;
-    font-weight: 700;
-    font-size: 50%;
+        color: black;
+        text-transform: uppercase;
+        align-content: center;
+        font-weight: 700;
+        font-size: 50%;
     }
+    .titulos1 {
+        margin-top: 7%;
+        width: 65%;
+        margin-left: 0;
+        padding-left: 5px;
+    }
+    .subt1 {
+    font-size: 70%;
+    text-transform: uppercase;
+    font-weight: 800;
+    }
+
+    .tit1 {
+        font-size: 140%;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .subsub1 {
+        font-size: 40%;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .boton-negro {
+        background: black;
+        padding: 8px 8px;
+        color: white;
+        font-size: 10%;
+        letter-spacing: 0.2px
+    }
+    
     img4{
         height: 50%;
     }
+    
+    .sub3{
+        font-size: 100%
+    }
+    
+    
 }
