@@ -160,3 +160,23 @@ a:hover {
 .icono-social {
     margin-left: 15px;
 }
+
+.logo {
+    height: auto;
+}
+
+@media only screen and (max-width: 800px){
+    .logo{
+        height: 50%;
+    }
+    a {
+    color: black;
+    text-transform: uppercase;
+    align-content: center;
+    font-weight: 700;
+    font-size: 50%;
+    }
+    img4{
+        height: 50%;
+    }
+}
