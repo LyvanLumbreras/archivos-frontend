@@ -176,7 +176,6 @@ a:hover {
     }
     .titulos1 {
         margin-top: 7%;
-        width: 65%;
         margin-left: 0;
         padding-left: 5px;
     }
@@ -190,6 +189,7 @@ a:hover {
         font-size: 180%;
         text-transform: uppercase;
         font-weight: 800;
+        width: 100%
     }
     .subsub1 {
         font-size: 70%;
