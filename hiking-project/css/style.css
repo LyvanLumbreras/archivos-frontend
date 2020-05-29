@@ -181,18 +181,18 @@ a:hover {
         padding-left: 5px;
     }
     .subt1 {
-    font-size: 70%;
+    font-size: 100%;
     text-transform: uppercase;
     font-weight: 800;
     }
 
     .tit1 {
-        font-size: 140%;
+        font-size: 180%;
         text-transform: uppercase;
         font-weight: 800;
     }
     .subsub1 {
-        font-size: 40%;
+        font-size: 70%;
         text-transform: uppercase;
         font-weight: 800;
     }
@@ -200,7 +200,7 @@ a:hover {
         background: black;
         padding: 8px 8px;
         color: white;
-        font-size: 10%;
+        font-size: 40%;
         letter-spacing: 0.2px
     }
     
