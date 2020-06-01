@@ -1,0 +1,315 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, sans-serif;
+    color: #fff;
+    background-image: url("../img/Group1/Hero_area.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #e37e7e;
+}
+
+.bgnav {
+    background-color: rgba(227,126,126,0.7);
+}
+
+.linknavbar {
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cont1 {
+    margin-top: 8%;
+}
+
+.title1 {
+    font-weight: bold;
+    font-size: 75px;
+}
+
+.sub1 {
+    font-size: 30px;
+    width: 50%;
+}
+
+.button-white {
+    color: #e37e7e;
+    font-weight: bold;
+    font-size: 25px;
+    background: #fff;
+    padding: 19px 75px;
+    border-radius: 32.5px;
+    transition: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.cont2 {
+    margin-top: 25%;
+}
+
+.title2 {
+    font-weight: bold;
+    font-size: 58px;
+}
+
+.sub2 {
+    font-size: 25.23px;
+}
+
+.sushi1 {
+    margin-top: 20%;
+}
+
+.margin_sushi_group2 {
+    margin-top: 8%;
+}
+
+.margin_plate_group2 {
+    margin-top: 7%
+}
+
+.p3 {
+    font-size: 20px;
+}
+
+.subt2 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.cont3 {
+    color: #e37e7e;
+    background-image: url(../img/Group3/Group3_background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.button-pink {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    background: #e37e7e;
+    padding: 19px 75px;
+    border-radius: 32.5px;
+}
+
+.sub3 {
+    font-size: 30px;
+}
+
+
+
+.cont5 {
+    margin-top: 5%;
+    color: #e37e7e;
+    background-image: url(../img/Group5/Group5_background.png);
+    image-resolution: from-image;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.margincont3 {
+    padding-top: 10%;
+    padding-bottom: 17%;
+}
+
+.sushi2 {
+    position: relative;
+    top: -70px;
+}
+
+.sushi3 {
+    position: relative;
+    top: -30px;
+}
+
+.cont6 {
+    background-image: url("../img/Group6/Group6_background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sushi4 {
+    position: relative;
+    top: 85%; 
+}
+
+.sub4 {
+    font-size: 33px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.cont7 {
+    color: #e37e7e;
+    background-image: url("../img/Group7/group7_background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sub7 {
+    color: #e37e7e;
+    font-weight: bold;
+    font-size: 58px;
+}
+
+.para7 {
+    font-size: 30px;
+    color: #e37e7e;
+}
+
+.form-control {
+    font-size: 25px;
+    height: 63px;
+    background: #f4f4f4;
+    border-color: transparent;
+    border-radius: 30px 0 0 30px;
+}
+
+.btn {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: bold;
+    font-size: 25px;
+    min-height: 63px; 
+    border-radius: 30px 30px 30px 30px;
+    background: #e37e7e;
+    color: #fff;
+}
+
+.input-group-btn {
+    background: #f4f4f4;
+    border-radius: 0 30px 30px 0;
+}
+
+.sushi5 {
+    position: relative;
+    top: 30%;
+}
+
+.sushi6 {
+    position: relative;
+    top: -20px;
+}
+
+.cont8 {
+    background-image: url("../img/Group8/group8_background.png");
+}
+
+li {
+    list-style: none;
+}
+
+.footerlink {
+    color: #fff;
+    font-size: 23px;
+}
+
+.footertitle {
+    font-size: 31px;
+}
+
+.dshowR {
+    display: none;
+}
+
+/*    Responsive cellphones      */
+@media (max-width: 575.98px) {
+    .showR{
+        display: none;
+    }
+    
+    .dshowR {
+        display: contents;
+    }
+    
+    .logo{
+        width: 40%;
+    }
+    
+    .search-icon{
+        width: 60%
+    }
+    
+    .cont1 {
+    margin-top: 4%;
+    }
+    
+    .title1 {
+    font-weight: bold;
+    font-size: 150%;
+    }
+    
+    .sub1 {
+    font-size: 90%;
+    width: 50%; 
+    }
+    
+    .button-white {
+    color: #e37e7e;
+    font-weight: bold;
+    font-size: 70%;
+    background: #fff;
+    padding: 12px 35px;
+    border-radius: 32.5px;
+    }
+    
+    .cont2 {
+    margin-top: 13%;
+    }
+    
+    .title2 {
+    font-weight: bold;
+    font-size: 140%;
+    }
+    
+    .sub2 {
+    font-size: 100%;
+    }
+    
+    .sub3 {
+    font-size: 100%;
+    }
+    
+    .button-pink {
+    color: #fff;
+    font-weight: bold;
+    font-size: 100%;
+    background: #e37e7e;
+    padding: 19px 20px;
+    border-radius: 32.5px;
+    }
+    
+    .name {
+    font-weight: bold;
+    font-size: 100%;
+    }
+    
+    .footerlink {
+    color: #fff;
+    font-size: 50%;
+    }
+    
+    .footertitle {
+    font-size: 50%;
+    }
+    
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
